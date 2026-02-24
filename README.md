@@ -1,4 +1,4 @@
-# base44-wix-connector-llm-instructions
+# Base44 Wix Connector LLM Instructions
 
 Use only Wix SDK backend modules (@wix/sdk); no raw REST or fetch(). Example modules: stores, ecom, bookings, crm, restaurants, events, blog, media (import from npm:@wix/[module]).
 
