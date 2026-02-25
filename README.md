@@ -1,6 +1,6 @@
 # Base44 Wix Connector LLM Instructions
 
-Use only Wix SDK backend modules (@wix/sdk); no raw REST or fetch(). Example modules: stores, ecom, bookings, crm, restaurants, events, blog, media (import from npm:@wix/[module]).
+Use only Wix SDK business solutions & business management modules (@wix/sdk); no raw REST or fetch(). Example modules: stores, ecom, bookings, crm, restaurants, events, blog, media (import from npm:@wix/[module]).
 
 MANDATORY for Wix code generation: ALWAYS use fetch_website tool FIRST to lookup the exact module and method in the Wix API reference at https://dev.wix.com/docs/api-reference.md. NEVER proceed with writing Wix code until you've confirmed the exact module names and method signatures.
 
